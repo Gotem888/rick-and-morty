@@ -1,0 +1,63 @@
+.App {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.Characters {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.Character {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 40px 15px 0 15px;
+  position: relative;
+  background-color: #fff;
+  border: 2px solid #999;
+  border-radius: 15px;
+  width: 300px;
+  box-shadow: 0 0 3px 1px #181c1d, 0 0 5px 2px #0d0e0e;
+  transition: all 0.3s;
+}
+.Character:hover {
+  box-shadow: 0 0 8px 3px #181c1d, 0 0 15px 10px #0d0e0e;
+}
+
+h2 {
+  padding: 2%;
+  position: absolute;
+  margin-bottom: 15px;
+  background: radial-gradient(#ffffff 40%, rgba(255, 255, 255, 0) 90%);
+  border-radius: 30px;
+}
+
+.Episodes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+.Episode {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px #000 solid;
+  border-radius: 15px;
+  background-color: rgb(97, 152, 191);
+  box-shadow: 0 1px 3px 1px #181c1d inset, 0 0 5px 2px #576060;
+  transition: all 0.2s;
+}
+.Episode:hover {
+  box-shadow: 0 1px 3px 1px #181c1d, 0 0 5px 2px #576060;
+  background-color: rgb(139, 189, 225);
+}
